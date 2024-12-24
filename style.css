@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    min-height:max-content;
+}
+
+/* Center the form container */
+.form-container {
+    background-color: cadetblue;
+    border: 1px solid rgb(214, 171, 115);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #b88282;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #5fb262;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #46b5e9;
+}
+
+/* Cancel link */
+.cancel-link {
+    display: inline-block;
+    margin-left: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}
+
+/* Form actions (buttons and links) */
+.form-actions {
+    text-align: center;
+    margin-top: 10px;
+}
